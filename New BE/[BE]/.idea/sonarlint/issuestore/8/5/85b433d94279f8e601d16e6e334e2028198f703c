@@ -1,0 +1,12 @@
+
+[	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(¶ÅÔÉ
+r
+java:S3305"WInject this field value directly into "getJwtTokenUtils", the only method that uses it.(ñ°Êƒÿÿÿÿÿ
+‚
+java:S1130F"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¶ÅÔÉ
+j
+java:S11922"ODefine a constant instead of duplicating this literal "/rest/admin/**" 4 times.(ï’îúÿÿÿÿ
+a
+java:S11922"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(ï’îúÿÿÿÿ
+i
+java:S11926"NDefine a constant instead of duplicating this literal "/rest/user/**" 4 times.(°­ƒİúÿÿÿÿ

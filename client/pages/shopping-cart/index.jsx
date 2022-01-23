@@ -34,7 +34,7 @@ const ShoppingCart = () => {
       product = product.slice(0, 6);
       setProduct(product);
     } catch (error) {
-      toastr.error("Lấy thông tin trái cây thất bại!");
+      toastr.error("Lấy thông tin dứa thất bại!");
     }
   };
   const getUser = async () => {
@@ -178,7 +178,7 @@ const ShoppingCart = () => {
             <h4 className="mb-3">Danh sách sản phẩm</h4>
             <div className="row py-3 bg-dark text-white mx-0 mb-1">
               <div className="col-2">Hình ảnh</div>
-              <div className="col-2">Tên trái cây</div>
+              <div className="col-2">Tên dứa</div>
 
               <div className="col-2">Số lượng</div>
               <div className="col-2">Đơn Giá</div>

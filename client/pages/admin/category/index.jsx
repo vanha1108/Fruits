@@ -35,7 +35,7 @@ const AdminCategory = () => {
     try {
 
       const res = await axios.get(
-        "https://4388-14-186-59-143.ngrok.io/rest/admin/category/list",
+        "http://localhost:8080/rest/admin/category/list",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -46,7 +46,7 @@ const AdminCategory = () => {
       const category = res.data.data;
       setCategory(category);
     } catch (error) {
-      toastr.error("Lấy thông tin loại trái cây thất bại!");
+      toastr.error("Lấy thông tin các loại dứa thất bại!");
     }
   };
 
@@ -59,7 +59,7 @@ const AdminCategory = () => {
   const handleAddNewCategory = async (values) => {
     try {
       await axios.post(
-        "https://4388-14-186-59-143.ngrok.io/rest/admin/category/add",
+        "http://localhost:8080/rest/admin/category/add",
         values,
         {
           headers: {
@@ -67,7 +67,7 @@ const AdminCategory = () => {
           },
         }
       );
-      toastr.success("Thêm loại trái cây thành công!");
+      toastr.success("Thêm loại dứa thành công!");
       getData();
     } catch (error) {
       toastr.error("Thêm thất bại!");
@@ -77,7 +77,7 @@ const AdminCategory = () => {
   const handleUpdateCategory = async (values) => {
     try {
       await axios.put(
-        "https://4388-14-186-59-143.ngrok.io/rest/admin/category/update",
+        "http://localhost:8080/rest/admin/category/update",
         values,
         {
           headers: {
@@ -85,7 +85,7 @@ const AdminCategory = () => {
           },
         }
       );
-      toastr.success("Sửa loại trái cây thành công!");
+      toastr.success("Sửa loại dứa thành công!");
       getData();
     } catch (error) {
       toastr.error("Sửa thất bại!");
@@ -95,7 +95,7 @@ const AdminCategory = () => {
   const addCategoryModal = () => {
     return (
       <Modal isOpen={modal} toggle={toggle}>
-        <ModalHeader toggle={toggle}>Thêm loại trái cây mới</ModalHeader>
+        <ModalHeader toggle={toggle}>Thêm loại dứa mới</ModalHeader>
         <ModalBody>
           <Formik
             initialValues={{
@@ -111,12 +111,12 @@ const AdminCategory = () => {
                       className="block text-gray-700 text-sm font-bold mb-2"
                       htmlFor="name"
                     >
-                      Tên loại trái cây
+                      Tên loại dứa
                     </label>
                     <Field
                       id="name"
                       name="name"
-                      placeholder="Tên loại trái cây"
+                      placeholder="Tên loại dứa"
                       className="form-control"
                       type="text"
                     />
@@ -157,7 +157,7 @@ const AdminCategory = () => {
     return (
       <Modal isOpen={isEdit} toggle={toggleEdit}>
         <ModalHeader toggle={toggleEdit}>
-          Cập nhập thông tin loại trái cây
+          Cập nhập thông tin loại dứa
         </ModalHeader>
         <ModalBody>
           <Formik
@@ -176,12 +176,12 @@ const AdminCategory = () => {
                       className="block text-gray-700 text-sm font-bold mb-2"
                       htmlFor="name"
                     >
-                      Tên loại trái cây
+                      Tên loại dứa
                     </label>
                     <Field
                       id="name"
                       name="name"
-                      placeholder="Tên loại trái cây"
+                      placeholder="Tên loại dứa"
                       className="form-control"
                       type="text"
                     />
@@ -220,7 +220,7 @@ const AdminCategory = () => {
   return (
     <>
       <div className="d-flex justify-content-between align-items-center">
-        <h2 className="py-3">Loại trái cây</h2>
+        <h2 className="py-3">Loại dứa</h2>
         <div
           className="py-3 px-4 bg-pink text-white rounded-pill"
           style={{
@@ -228,14 +228,14 @@ const AdminCategory = () => {
           }}
           onClick={() => setModal(true)}
         >
-          Thêm loại trái cây
+          Thêm loại dứa
         </div>
       </div>
       <table className="table table-bordered table-striped">
         <thead>
           <tr>
             <th scope="col">Mã</th>
-            <th scope="col">Tên thể loại</th>
+            <th scope="col">Tên loại dứa</th>
           </tr>
         </thead>
         {category.length>0?<tbody>
@@ -250,7 +250,7 @@ const AdminCategory = () => {
                 <td>{data.name}</td>
               </tr>
             ))}
-        </tbody>:<div className="text-success mt-2">Đang lấy danh sách loại trái cây vui lòng đợi...</div>}
+        </tbody>:<div className="text-success mt-2">Đang lấy danh sách các loại dứa vui lòng đợi...</div>}
         
       </table>
       {addCategoryModal()}

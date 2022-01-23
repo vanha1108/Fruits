@@ -47,7 +47,7 @@ const AdminProduct = () => {
       setProduct(product);
       setProductSelect(product[0]);
     } catch (error) {
-      toastr.error("Lấy thông tin loại trái cây thất bại!");
+      toastr.error("Lấy thông tin loại dứa thất bại!");
     }
   };
   const getCategory = async () => {
@@ -61,7 +61,7 @@ const AdminProduct = () => {
       const category = res.data.data;
       setCategory(category);
     } catch (error) {
-      toastr.error("Lấy thông tin loại trái cây thất bại!");
+      toastr.error("Lấy thông tin loại dứa thất bại!");
     }
   };
   const getSupplier = async () => {
@@ -75,7 +75,7 @@ const AdminProduct = () => {
       const supplier = res.data.data;
       setSupplier(supplier);
     } catch (error) {
-      toastr.error("Lấy thông tin loại trái cây thất bại!");
+      toastr.error("Lấy thông tin loại dứa thất bại!");
     }
   };
 
@@ -195,8 +195,8 @@ const AdminProduct = () => {
             initialValues={{
               name: "",
               image: null,
-              type: category[0],
-              supplier: supplier[0],
+              type: category[0] && category[0].id,
+              supplier: supplier[0] && supplier[0].id ,
               description: "",
             }}
             onSubmit={handleAddNewProduct}
@@ -241,12 +241,12 @@ const AdminProduct = () => {
                           className="block text-gray-700 text-sm font-bold mb-2"
                           htmlFor="name"
                         >
-                          Tên trái cây
+                          Tên dứa
                         </label>
                         <Field
                           id="name"
                           name="name"
-                          placeholder="Tên trái cây"
+                          placeholder="Tên dứa"
                           className="form-control"
                           type="text"
                         />
@@ -256,12 +256,12 @@ const AdminProduct = () => {
                           className="block text-gray-700 text-sm font-bold mb-2"
                           htmlFor="type"
                         >
-                          Loại trái cây
+                          Loại dứa
                         </label>
                         <Field
                           id="type"
                           name="type"
-                          placeholder="Loại trái cây"
+                          placeholder="Loại dứa"
                           className="form-control"
                           as="select"
                         >
@@ -346,10 +346,10 @@ const AdminProduct = () => {
         <ModalBody>
           <Formik
             initialValues={{
-              name: productSelect.id,
+              name: productSelect && productSelect.id,
               quantity: "",
-              purchasePrice: productSelect.purchase_price,
-              sellPrice: productSelect.price,
+              purchasePrice: productSelect && productSelect.purchase_price,
+              sellPrice: productSelect && productSelect.price,
             }}
             onSubmit={handleAddNewPurchase}
           >
@@ -363,12 +363,12 @@ const AdminProduct = () => {
                           className="block text-gray-700 text-sm font-bold mb-2"
                           htmlFor="type"
                         >
-                          chọn trái cây
+                          Chọn dứa
                         </label>
                         <Field
                           id="name"
                           name="name"
-                          placeholder="Loại trái cây"
+                          placeholder="Loại dứa"
                           className="form-control"
                           as="select"
                           onChange={(event) => {
@@ -580,12 +580,12 @@ const AdminProduct = () => {
                           className="block text-gray-700 text-sm font-bold mb-2"
                           htmlFor="name"
                         >
-                          Tên trái cây
+                          Tên dứa
                         </label>
                         <Field
                           id="name"
                           name="name"
-                          placeholder="Tên trái cây"
+                          placeholder="Tên dứa"
                           className="form-control"
                           type="text"
                         />
@@ -595,12 +595,12 @@ const AdminProduct = () => {
                           className="block text-gray-700 text-sm font-bold mb-2"
                           htmlFor="type"
                         >
-                          Loại trái cây
+                          Loại dứa
                         </label>
                         <Field
                           id="id_category"
                           name="id_category"
-                          placeholder="Loại trái cây"
+                          placeholder="Loại dứa"
                           className="form-control"
                           as="select"
                         >
@@ -734,7 +734,7 @@ const AdminProduct = () => {
             <th scope="col">SKU</th>
             <th scope="col">Hình ảnh</th>
             <th scope="col">Tên</th>
-            <th scope="col">Loại trái cây</th>
+            <th scope="col">Loại dứa</th>
             <th scope="col">Số lượng</th>
             <th scope="col">Giá bán</th>
             <th scope="col">Mô tả</th>

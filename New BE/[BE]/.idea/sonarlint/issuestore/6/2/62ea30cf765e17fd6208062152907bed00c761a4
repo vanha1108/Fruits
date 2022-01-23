@@ -1,0 +1,9 @@
+
+p	java:S116"VRename this field "id_purchase" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¦îşÿÿÿÿ
+o	java:S116"URename this field "id_product" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æƒ ®øÿÿÿÿ
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÔİËÿÿÿÿÿ8àôÒÂÚ/
+o	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹¦º»şÿÿÿÿ8áôÒÂÚ/
+o	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØŞì‹ûÿÿÿÿ8âôÒÂÚ/
+i	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îƒ¼W8âôÒÂÚ/
+r	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹¦º»şÿÿÿÿ8æôÒÂÚ/
+l	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îƒ¼W8æôÒÂÚ/

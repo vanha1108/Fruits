@@ -42,7 +42,7 @@ const Login = () => {
     <div
       className="p-5 min-vh-100 justify-content-center align-items-center d-flex"
       style={{
-        backgroundImage: 'url("/static/images/banner-list-product.jpg")',
+        backgroundImage: 'url("/static/images/dua_3.jpg")',
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
@@ -51,7 +51,7 @@ const Login = () => {
         <div className="col-6 pe-0">
           <img
             className="w-100 h-100"
-            src="/static/images/dau-tay.jpg"
+            src="/static/images/dua_4.jpg"
             alt=""
           />
         </div>

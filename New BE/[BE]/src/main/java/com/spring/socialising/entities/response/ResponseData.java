@@ -7,6 +7,8 @@ public class ResponseData {
 
     private Object data;
 
+
+
     public boolean isSuccess() {
         return success;
     }

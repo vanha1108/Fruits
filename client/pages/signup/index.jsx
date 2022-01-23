@@ -29,7 +29,7 @@ const SignUp = () => {
 
       try {
         await axios.post(
-          "https://4388-14-186-59-143.ngrok.io/rest/signup-new",
+          "http://localhost:8080/rest/signup-new",
           data
         );
         toastr.success("Đăng ký thành công!");

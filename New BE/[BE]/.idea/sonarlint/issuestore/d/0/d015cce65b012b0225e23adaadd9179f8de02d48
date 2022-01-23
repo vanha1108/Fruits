@@ -1,0 +1,13 @@
+
+f	java:S116"RRename this field "id_sell" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç›»Q
+o	java:S116"URename this field "id_product" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æƒ ®øÿÿÿÿ
+G
+java:S1068"+Remove this unused "id_sell" private field.(ç›»Q8åÔÂÚ/
+P
+java:S1068".Remove this unused "id_product" private field.(Æƒ ®øÿÿÿÿ8åÔÂÚ/
+E
+java:S1068"(Remove this unused "code" private field.(²âèú8åÔÂÚ/
+F
+java:S1068"*Remove this unused "amount" private field.(èú^8æÔÂÚ/
+F
+java:S1068")Remove this unused "price" private field.(÷ºùÆ8æÔÂÚ/

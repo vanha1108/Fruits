@@ -29,7 +29,7 @@ const Supplier = () => {
   const getData = async () => {
     try {
       const res = await axios.get(
-        "https://4388-14-186-59-143.ngrok.io/rest/admin/supplier/list",
+        "http://localhost:8080/rest/admin/supplier/list",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -40,7 +40,7 @@ const Supplier = () => {
       const supplier = res.data.data;
       setSupplier(supplier);
     } catch (error) {
-      toastr.error("Lấy thông tin loại trái cây thất bại!");
+      toastr.error("Lấy thông tin loại dứa thất bại!");
     }
   };
 
@@ -52,7 +52,7 @@ const Supplier = () => {
   const handleAddNewCategory = async (values) => {
     try {
       const res = await axios.post(
-        "https://4388-14-186-59-143.ngrok.io/rest/admin/supplier/add",
+        "http://localhost:8080/rest/admin/supplier/add",
         values,
         {
           headers: {
@@ -61,7 +61,7 @@ const Supplier = () => {
         }
       );
 
-      toastr.success("Thêm loại trái cây thành công!");
+      toastr.success("Thêm loại dứa thành công!");
       getData();
     } catch (error) {
       toastr.error("Thêm thất bại!");
@@ -71,7 +71,7 @@ const Supplier = () => {
   const handleUpdateCategory = async (values) => {
     try {
       const res = await axios.put(
-        "https://4388-14-186-59-143.ngrok.io/rest/admin/supplier/update",
+        "http://localhost:8080/rest/admin/supplier/update",
         values,
         {
           headers: {
@@ -79,7 +79,7 @@ const Supplier = () => {
           },
         }
       );
-      toastr.success("Sửa loại trái cây thành công!");
+      toastr.success("Sửa loại dứa thành công!");
       getData();
     } catch (error) {
       toastr.error("Sửa thất bại!");

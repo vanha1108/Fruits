@@ -41,7 +41,7 @@ const AdminGift = () => {
       const promotion = res.data.data;
       setPromotion(promotion);
     } catch (error) {
-      toastr.error("Lấy thông tin loại trái cây thất bại!");
+      toastr.error("Lấy thông tin loại dứa thất bại!");
     }
   };
 

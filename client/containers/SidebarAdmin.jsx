@@ -211,7 +211,7 @@ const SidebarAdmin = () => {
                   <circle cx="6.5" cy={17} r={4} />
                   <circle cx="17.5" cy={17} r={4} />
                 </svg>
-                Loại trái cây
+                Loại dứa
               </a>
             </Link>
           </li>

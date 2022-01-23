@@ -55,10 +55,10 @@ const ProductDetail = () => {
 
           setProduct(updatedProduct);
         } catch (error) {
-          toastr.error("Lấy thông tin loại trái cây thất bại!");
+          toastr.error("Lấy thông tin loại dứa thất bại!");
         }
       } catch (error) {
-        toastr.error("Lấy thông tin loại trái cây thất bại!");
+        toastr.error("Lấy thông tin loại dứa thất bại!");
       }
     }
   };
@@ -70,7 +70,7 @@ const ProductDetail = () => {
       const category = res.data.data;
       setCategory(category);
     } catch (error) {
-      toastr.error("Lấy thông tin loại trái cây thất bại!");
+      toastr.error("Lấy thông tin loại dứa thất bại!");
     }
   };
 
@@ -117,7 +117,7 @@ const ProductDetail = () => {
             </div>
             <div className="col-6">
               <div className="fw-bolder mb-4">
-                Tên trái cây:{" "}
+                Tên dứa:{" "}
                 <span className="fw-normal">{productDetail.name}</span>
               </div>
               <div className="fw-bolder mb-4">
@@ -127,7 +127,7 @@ const ProductDetail = () => {
                 </span>
               </div>
               <div className="fw-bolder mb-4">
-                Loại trái cây:{" "}
+                Loại dứa:{" "}
                 <span className="fw-normal">
                   {viewCategory(productDetail.id_category)}
                 </span>

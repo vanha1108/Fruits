@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c44da0cb-e36f-4edd-b519-b2d892943fac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../New BE/[BE]/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../New BE/[BE]/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New BE/[BE]/src/main/java/com/spring/socialising/entities/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../New BE/[BE]/src/main/java/com/spring/socialising/entities/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New BE/[BE]/src/main/java/com/spring/socialising/entities/response/ResponseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../New BE/[BE]/src/main/java/com/spring/socialising/entities/response/ResponseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New BE/[BE]/src/main/java/com/spring/socialising/services/CategoryService/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../New BE/[BE]/src/main/java/com/spring/socialising/services/CategoryService/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New BE/[BE]/target/classes/com/spring/socialising/entities/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../New BE/[BE]/target/classes/com/spring/socialising/entities/ProductEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New BE/[BE]/target/classes/com/spring/socialising/entities/response/ResponseData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../New BE/[BE]/target/classes/com/spring/socialising/entities/response/ResponseData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New BE/[BE]/target/classes/com/spring/socialising/services/CategoryService/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../New BE/[BE]/target/classes/com/spring/socialising/services/CategoryService/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/containers/Banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/category/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/category/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/product/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/product/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/supplier/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/supplier/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signup/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signup/index.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="242gDNWK5Q2TrJOIfG5q0HnVzDi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c44da0cb-e36f-4edd-b519-b2d892943fac" name="Changes" comment="" />
+      <created>1642833976050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642833976050</updated>
+    </task>
+    <servers />
+  </component>
+</project>

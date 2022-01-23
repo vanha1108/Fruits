@@ -9,7 +9,7 @@ module.exports = {
     return [
       {
         source: '/rest/:path*',
-        destination: 'https://4388-14-186-59-143.ngrok.io/rest/:path*',
+        destination: 'http://localhost:8080/rest/:path*',
         // destination: 'https://document-manager-app.herokuapp.com/api/:path*',
       },
     ]
